@@ -59,7 +59,7 @@ export default async function handler(req, res) {
         username,
         avatar,
         roles,
-        last_login: new Date()
+        last_login: 1265631597399638119(1265631597399638119)
       }, { onConflict: 'discord_id' });
 
     if (error) {
@@ -74,3 +74,4 @@ export default async function handler(req, res) {
     return res.status(500).send('Błąd logowania');
   }
 }
+
